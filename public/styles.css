@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(85, 85, 85);
+}
+.first__number {
+    border-radius: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    background-color: rgb(56, 32, 32);
+    justify-content: space-around;
+}
+.number__pad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nrow__pad {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nrow__pad > h1 {
+    padding: 0px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.nrow__pad > h1:hover {
+    background-color: azure;
+}
+.viewed {
+    display: flex;
+    padding: 5px;
+    height: 90px;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.viewed::-webkit-scrollbar {
+    display: none;
+}
+.hello {
+    max-height: 5px;
+    padding: 2px;
+}
+.master__view {
+    display: flex;
+    justify-content: space-between;
+}
