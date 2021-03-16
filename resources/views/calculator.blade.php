@@ -23,8 +23,8 @@
             
             <div class="number__pad">
                 <div class="nrow__pad">
-                    <h1 onClick="handleClear()">C</h1>
-                    <h1 onClick="handleClick('back')">B</h1>
+                    <h1 onClick="handleClearall()">C</h1>
+                    <h1 onClick="handleClear()">B</h1>
                     <h1 onClick="handleClick('y')">y</h1>
                     <h1 onClick="handleClick('/')">%</h1>
                 </div>
@@ -70,6 +70,10 @@
         function handleClear(){
             arr.pop();
             result.pop()
+            displayOp()
+        }
+        function handleClearall(){
+            arr = [];
             displayOp()
         }
         function handleReset() {

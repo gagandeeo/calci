@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: darkgray;
 }
 .first__number {
     border-radius: 50px;
@@ -8,19 +8,15 @@ body {
 form {
     display: flex;
     flex-direction: column;
-    padding: 5px;
-    max-width: 30%;
-    margin-left: 35%;
+    max-width: 40%;
     background-color: gray;
     justify-content: space-around;
-    border-radius: 20px;
 }
 .number__pad {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
-    padding: 10px;
-    margin: 20px;
 }
 
 .nrow__pad {
@@ -30,8 +26,6 @@ form {
 }
 
 .nrow__pad > h1 {
-    color: black;
-    font-weight: bold;
     padding: 0px 20px;
     border-radius: 20px;
     cursor: pointer;
@@ -43,12 +37,9 @@ form {
 .viewed {
     display: flex;
     padding: 5px;
-    margin-top: 10px;
-    margin-left: 5px;
     height: 90px;
     flex-direction: column;
     overflow-y: scroll;
-    color: aliceblue;
 }
 .viewed::-webkit-scrollbar {
     display: none;
@@ -60,13 +51,4 @@ form {
 .master__view {
     display: flex;
     justify-content: space-between;
-}
-.master__viewinput{
-    margin-right: 5px;
-    margin-top: 38px;
-    padding: 5px;
-    height: 30px;
-    border-radius: 20px;
-    border: none;
-    outline: none;
 }
